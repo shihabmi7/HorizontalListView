@@ -33,6 +33,9 @@ public class MainActivity extends Activity {
         mClickMessage = "";
         mScrollMessage = "";
         mStateMessage = "";
+        
+        
+        
 
         mToast = Toast.makeText(this, "", Toast.LENGTH_SHORT);
         mToast.setGravity(Gravity.CENTER, 0, 0);
